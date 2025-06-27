@@ -37,7 +37,7 @@ class ExpenseTrackerApp(tk.Tk):
         self.username = username
         
         # Connect to MongoDB
-        self.client = MongoClient("mongodb+srv://singla-palak_30:2830412Ps@expense-tracker.xvmac2e.mongodb.net/?retryWrites=true&w=majority&appName=expense-tracker")
+        self.client = MongoClient("mongodb+srv://<username>:<db-password>@expense-tracker.xvmac2e.mongodb.net/?retryWrites=true&w=majority&appName=expense-tracker")
         self.db = self.client["expense_tracker"]
         self.users_collection = self.db["users"]
         
