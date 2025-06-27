@@ -1,4 +1,4 @@
-# Personal-Expense-Trakcer
+# Personal-Expense-Tracker
 A modern and user-friendly **Expense Tracker** built with **Python**, **Tkinter**, **MongoDB**, **Pandas**, and **Matplotlib**. This desktop application allows users to **add, edit, delete expenses**, **set a monthly budget**, and **visualize financial reports** through interactive charts.
 
 ---
